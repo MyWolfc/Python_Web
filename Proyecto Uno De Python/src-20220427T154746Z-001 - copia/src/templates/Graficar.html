@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Radiators Manager</title>
+    <!--BOOTSTRAP 4-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--custumizado css-->
+    <link rel="stylesheet" href="{{  url_for('static', filename='css/main.css')  }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Radiators Manager</a>
+          <li class="nav-item">
+            <a class="nav-link" >Administrador</a>
+          </li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            </ul>
+          </div>
+        </div>
+    </nav>
+     <div class = "container">
+       <br />
+       <br /> 
+       <br />             
+       <form >
+           
+       
+           <a href="https://datastudio.google.com/reporting/d3581149-4ba4-49e8-8a19-f439bd42f860" class="nav-link">Graficar informe general</a>
+           <a href="https://datastudio.google.com/s/lxIkd2mHLhc" class = "nav-link"> Graficar Area Ensablado </a>
+           <a href= "https://datastudio.google.com/s/qOCAYWsRuqI" class = "nav-link"> Graficar Area Acero </a>
+           <a href= "https://datastudio.google.com/s/p_tCvZOQFJ4" class = "nav-link"> Graficar Area Limpieza </a>
+           <br />
+           <br />
+           <label for="validationCustom03" class="form-label">PD: las graficas se actualizan cada hora pero con los links de arriba puede hacerlo manualmente</label>
+           <br />
+           <br />
+           <label for="validationCustom03" class="form-label">Graficas Generales </label>
+       </form>
+       <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/3050ed54-8e3d-4284-8295-2286c3b40920/page/517gC" frameborder="0" style="border:0" allowfullscreen></iframe>
+       
+       <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/2fbcb99e-e436-417b-8c92-1992763638d4/page/I17gC" frameborder="0" style="border:0" allowfullscreen></iframe>
+       
+       <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/de52f199-4e4e-4e99-a67e-c97320b70862/page/g17gC" frameborder="0" style="border:0" allowfullscreen></iframe>
+       
+       <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/d3581149-4ba4-49e8-8a19-f439bd42f860/page/loChC" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </div>
+     
+
+    </body>
+</html>
